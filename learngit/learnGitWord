@@ -1,6 +1,4 @@
-git is a version control sysytem.
-git is free software.
-一、学习笔记
+一、创建版本库
 初始化一个Git仓库，使用git init命令。
 
 添加文件到Git仓库，分两步：
