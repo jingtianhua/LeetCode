@@ -8,7 +8,11 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
+<<<<<<< HEAD
         int y;
+=======
+        int x;
+>>>>>>> featurel
     }
 };
 // @lc code=end
