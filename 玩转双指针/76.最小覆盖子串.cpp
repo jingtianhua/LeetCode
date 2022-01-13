@@ -3,13 +3,16 @@
  *
  * [76] 最小覆盖子串
  */
+#include <iostream>
 #include <unordered_map>
 #include <unordered_set>
+#include <string.h>
+using namespace std;
 // @lc code=start
 class Solution {
 public:
     string minWindow(string s, string t) {
-        unordered_map<char, size_t> charsCount;
+        unordered_map<char, int> charsCount;
         unordered_set<char> charsFlag;
         for (size_t i = 0; i < t.size(); ++i)
         {
@@ -39,7 +42,6 @@ public:
                 }
             }
         }
-        cout << min_size;
         return min_size > s.size() ? "" : s.substr(min_l, min_size);
     }
 };
