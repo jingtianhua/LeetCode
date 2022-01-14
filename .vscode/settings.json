@@ -12,6 +12,8 @@
         "unordered_set": "cpp",
         "random": "cpp",
         "cmath": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "functional": "cpp",
+        "vector": "cpp"
     }
 }
