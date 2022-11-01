@@ -2,10 +2,18 @@
     "editor.minimap.enabled": true,
     "C_Cpp.autocomplete": "Default",
     "[cpp]": {
-        "editor.quickSuggestions": true
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
     },
     "[c]": {
-        "editor.quickSuggestions": true
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
     },
     "files.associations": {
         "unordered_map": "cpp",
